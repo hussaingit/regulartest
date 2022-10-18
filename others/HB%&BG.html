@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HB & B.Group</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="watermark">
+        <h1>National Clinical Pathology Laboratory </h1> </div>
+        <div class="contact">
+            <h1 >Not Valid For Court   </h1>
+            
+    </div>
+      
+    <div  class="mainhead" >
+        Lab Report
+    </div>
+    
+      <div class="bio"> 
+    <h5>
+        <label for="txtFIRST NAME">PATIENT NAME</label>
+        <select name="" onchange="titleFunction()"  id="title">
+            <option value=""></option>
+            <option value="">Mr</option>
+            <option value="">W/O</option>
+            <option value="">D/O</option>
+            
+            <option value="">Mrs</option>
+           
+            <option value="">Sis/O</option>
+            <option value="">Baby</option>
+            <option value="">Miss</option>
+            <option value="">M/O</option>
+            <option value="">S/O</option>
+        </select>
+            <input id="farm" type="text" name="Patient Name" size="15"    maxlength="30"/> 
+        </h5>
+
+<h5> <label for="txtFIRST NAME">REFERRED BY:</label> 
+    <select style="border: none;" name="Doctor" >   
+        <option value=""></option>
+        <option value="SELF">Self</option>
+        <option value="Dr.Shahid Parvez Arain SB">Dr.Shahid Parvez Arain SB </option> 
+        <option value="Dr.Shahid Parvez Arain SB">Dr.Abdul Hafeez Arain SB </option> 
+        <option value="Dr.AD Arain SB">Dr.Shaista Hafeez SBA</option>
+       
+        <option value="Dr.AD Arain SB">Dr.AD Arain  SB</option>
+        
+        <option value="Dr.Muhammad Younis Arain SB">Dr.Muhammad Younis Arain SB</option> 
+        <option value="Dr.Muhammad Aslam Arain SB">Dr.Muhammad Aslam Arain SB </option>
+        <option value="Dr.Muhammmad Ameen Arain  SB">Dr.Muhammmad Ameen Arain   SB</option>
+        <option value="Dr.Asif Ali Qureshi SB">Dr.Asif Ali Qureshi SB </option>
+        <option value="Dr.ABDUL RASHEED ARAIN SB">Dr.Abdul Rasheed Arain SB</option> 
+        <option value="Dr.Dilawar Hussain Choohan  SB">Dr.Muhammad Tariq Arain SB</option> 
+        <option value="Dr.NAFEES AHMED MEMON  SB">Dr.Abdullah Brohi SB</option> 
+    
+        <option value="Dr.Habibullah Arain SB">Dr.Habibullah Arain SB</option> 
+    <option value=""> <input style="width: 267px; font-size: 17px; border: none; " type="text"> </option>
+</select></h5>
+
+
+
+<h5>
+    <label for="date"> DATE : </label>
+        <input type="text" name="Date" id="currentdate">
+    
+</h5>
+
+    </div>
+    <div class="reportHB">
+        
+            <table width="600" cellpadding=5 cellspacing="6"> 
+                <tr> 
+                    <td class="reporthead">TEST</td>
+                    <td class="reporthead">RESULT</td>
+                    <td class="reporthead">NORMAL RANGE</td>
+                    
+                </tr>
+               
+                <tr>
+                    <td>
+                        <select name="Test" >   
+                            
+                            <option  value="Hemoglobin">HB%</option>
+                           
+                        </select>   
+                    </td>
+                    <td>
+                        <input type="text" id="farm2" size="10" >
+                    </td>
+                    <td>
+                        <select name="Result"  >
+                            <option  value="14-18 p/dl">( F 11 -16-13-18M)</option>
+                            <option  value="14-18 p/dl">10-12 Baby </option>
+                        </select>
+                    </td> 
+                      
+                </tr>
+                <tr> 
+                    <td>
+                        <select  name="Test" >   
+                            
+                            <option  value="Blood Group">B.Group</option>
+                           
+                        </select>   
+                    </td>
+                    <td>
+                        <select class="val" name="Result" >   
+                            
+                            <option class="val" value="(RH)Positive">X</option>
+                            <option value="" class="val">B+ve</option>
+                            <option value="" class="val">O+ve</option>
+                            <option value="" class="val">A+ve</option>
+                            <option value="" class="val">AB+ve</option>
+                            <option value="" class="val">B-ve</option>
+                            <option value="" class="val">O-ve</option>
+                            <option value="" class="val">A-ve</option>
+                            <option value="" class="val">AB-ve</option>
+                            
+                          
+                        </select>
+                    </td>
+                    <td>
+                        <select class="val" name="Result"  >
+                            <option class="val" value="(RH)Positive">X</option>
+                            <option class="val" value="(RH)Positive">(RH)Positive</option>
+                            <option value="(RH)Negative" class="val">(RH)Negative</option>
+                            
+                        </select>
+                    </td>
+                </tr>
+
+
+
+
+
+
+           
+        </table>
+    </h5> </div>
+    
+       
+    <div onclick="window.print()" class="footer1">
+        <p>
+            This is computer generated report, does not require any signature                                                                                                                                                  
+            </p></div>
+            
+    
+    
+</body>
+<script src="app.js"></script>
+</html>

@@ -1,0 +1,306 @@
+body{
+background-color: orange;
+}
+
+h1 {
+    text-align: center;
+}
+
+.contact{
+   text-align: center;
+
+}
+
+
+
+label{
+    margin: 4px 0px 2px 0px;
+    float: left;
+    width: 110px;text-align: justify;padding: 5px 5px 5px 5px;
+    
+
+}
+.result{
+    font-size: 700%;font-weight: bold;font-family: Arial, Verdana, sans-serif; 
+}
+
+
+.uric{
+
+    width: 90px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.choles{
+    width: 110px;
+    font-size: 18px;
+    font-weight: bold;
+}
+select{
+    font-size: 18px;
+    height: 26px;
+    outline: none;
+    -webkit-appearance: none;
+    border: none;
+
+
+}
+
+
+.bio{
+    border: thin dotted black;
+    padding-bottom: 15px;
+    padding-top: 0px;
+    border-width: 2px;
+    width: 500px;
+    margin-top: 10px;
+    margin-left: 120px;
+    text-align: justify;
+    height: 160px;
+    flex-wrap: wrap;
+}
+.report{
+    border: thin dotted black;
+    border-width: 2px;
+    width: 550px;
+    margin: 0 auto;
+    margin-top: 60px;
+    text-align: justify;
+    flex-wrap: wrap;
+}
+.report1{
+    border: thin dotted black;
+    border-width: 2px;
+    margin: 0 auto;
+    margin-top: 20px;
+    text-align: justify;
+    width: 660px;
+    flex-wrap: wrap;
+}
+
+
+.head{
+    font-family: sans-serif;
+    font-size: 30px;
+    text-decoration: underline;
+    margin-left: 200px;
+}
+.head1{
+    font-family: sans-serif;
+    font-size: 22px;
+    text-decoration: underline;
+    margin-left: 130px;
+    flex-wrap: wrap;
+}
+.head2{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    text-decoration: underline;
+    margin-left: 200px;
+    flex-wrap: wrap;
+}
+.headur{
+    font-family: sans-serif;
+    font-size: 17px;
+font-weight: bold;
+    text-decoration: underline;
+    margin-left: 200px
+}
+.val{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 19px;
+}
+.mainhead{
+    font-weight: bold;
+    margin-top: 25px;
+    margin-left: 300px;
+    text-decoration: underline;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 36px;
+    flex-wrap: wrap;
+}
+
+.mainheadcbc{
+    font-weight: bold;
+    margin-top: 25px;
+    margin-left: 0px;
+    text-decoration: underline;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    flex-wrap: wrap;
+}
+.mainheadur{
+    font-weight: bold;
+    margin-top: 25px;
+    margin-left: 300px;
+    text-decoration: underline;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    flex-wrap: wrap;
+}
+.mainheadcross{
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 15px;
+    margin-left: 300px;
+}
+.btn-print{
+    width: 100px;
+    height: 50px;
+    flex-wrap: wrap;
+}
+#farm{
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    width: 260px;
+    font-size: 19px; 
+    height: 25px;
+}
+#farm1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+
+    font-size: 19px; 
+    height: 27px;
+  
+}
+#farm2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+  font-weight: bold;
+    font-size: 15px; 
+    height: 20px;
+    
+}
+#farm3{
+    font-weight: bold;
+    font-size: 15px;
+   
+}
+.footer{
+    text-align: center;
+    flex-wrap: wrap;
+}
+.footer1{
+    flex-wrap: wrap;
+    margin-left: 140px;
+}
+.reporthead{
+    font-size: 16px;
+    
+}
+.reportheadur{
+    font-size: 14px;
+    font-style: italic;
+}
+.urine{
+    width: 50px;
+ 
+    font-weight: bold;
+    margin-right: 100px;
+}
+
+.urine1{
+    width: 50px;
+ 
+    font-weight: bold;
+    position: absolute;
+    left: 415px;
+
+}
+.urine2{
+    width: 50px;
+ 
+    font-weight: bold;
+    position: absolute;
+    left: 670px;
+    border: none;
+}
+.reporthead1{
+    font-weight: bold;
+}
+
+
+
+#currentdate{
+    font-size: 20px;
+    width: 100px;
+}
+
+
+.userinter{
+    
+    margin: 0 auto;
+    margin-top: 50px;
+    display: inline-flex;
+
+    flex-wrap: wrap;
+
+}
+.btn-test{
+    width: 160px;
+    height: 160px;
+    font-weight: bold;
+    font-size: 18px;
+    flex-wrap: wrap;
+
+}
+input{
+    outline: none;
+    border: none;
+}
+.reportHB{
+    margin-top: 100px;
+    text-align: center;
+    margin-left: 100px ;
+}
+#watermark{
+    text-align: center;
+}
+
+#watermarkcbc{
+
+    text-align: center;
+ 
+}
+#country{
+    font-weight: bold;
+}
+.hand{
+    border: none;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.handcbc{
+    border: none;
+    font-size: 15px;
+}
+.hand1{
+    border: none;
+    font-weight: bold;
+}
+.handwrite{
+    position: absolute;
+    left: 200px;
+    top: 400px;
+}
+.footerH{
+    position: absolute;
+    top: 1000px;
+    left: 200px;
+}
+.footerH1{
+    position: absolute;
+    top: 700px;
+    left: 200px;
+}
+.footercbc{
+    position: absolute;
+    top: 1005px;
+    left: 200px;
+}

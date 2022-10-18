@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Cholestrol</title>
+</head>
+<body>
+    
+    <div id="watermark">
+        <h1>National Clinical Pathology Laboratory </h1> </div>
+        <div class="contact">
+            <h1 >Not Valid For Court   </h1>
+            
+    </div>
+          
+        
+        <div  class="mainhead" >
+            Lab Report
+        </div>
+        
+          <div class="bio"> 
+        <h5>
+            <label for="txtFIRST NAME">PATIENT NAME</label>
+            <select name=""onchange="titleFunction()"  id="title" >
+                <option value=""></option>
+                <option value="">Mr</option>
+            <option value="">W/O</option>
+            <option value="">D/O</option>
+            
+            <option value="">Mrs</option>
+           
+            <option value="">Sis/O</option>
+            <option value="">Baby</option>
+            <option value="">Miss</option>
+            <option value="">M/O</option>
+            <option value="">S/O</option>
+            </select>
+    
+                <input id="farm" type="text" name="Patient Name" size="15"    maxlength="30"/> 
+            </h5>
+    
+    <h5> <label for="txtFIRST NAME">REFERRED BY:</label> 
+        <select style="border: none;" name="Doctor" >   
+            <option value=""></option>
+            <option value="SELF">Self</option>
+            <option value="Dr.Shahid Parvez Arain SB">Dr.Shahid Parvez Arain SB </option> 
+            <option value="Dr.Shahid Parvez Arain SB">Dr.Abdul Hafeez Arain SB </option> 
+            <option value="Dr.AD Arain SB">Dr.Shaista Hafeez SBA</option>
+           
+            <option value="Dr.AD Arain SB">Dr.AD Arain  SB</option>
+            
+            <option value="Dr.Muhammad Younis Arain SB">Dr.Muhammad Younis Arain SB</option> 
+            <option value="Dr.Muhammad Aslam Arain SB">Dr.Muhammad Aslam Arain SB </option>
+            <option value="Dr.Muhammmad Ameen Arain  SB">Dr.Muhammmad Ameen Arain   SB</option>
+            <option value="Dr.Asif Ali Qureshi SB">Dr.Asif Ali Qureshi SB </option>
+            <option value="Dr.ABDUL RASHEED ARAIN SB">Dr.Abdul Rasheed Arain SB</option> 
+            <option value="Dr.Dilawar Hussain Choohan  SB">Dr.Muhammad Tariq Arain SB</option> 
+            <option value="Dr.NAFEES AHMED MEMON  SB">Dr.Abdullah Brohi SB</option> 
+        
+            <option value="Dr.Habibullah Arain SB">Dr.Habibullah Arain SB</option> 
+        <option value=""> <input style="width: 267px; font-size: 17px; border: none; " type="text"> </option>
+    </select></h5>
+    
+    
+    <h5>
+        <label for="date"> DATE : </label>
+            <input type="text" name="Date" id="currentdate">
+        
+    </h5>
+    
+   
+            </div>
+            <div class="report1" >
+            <p class="head1"> <b> Chemical Examination </b> </p> <br> 
+            <table width="600" cellpadding=5 cellspacing="6"> 
+                <tr> 
+                    <td class="reporthead1">TEST</td>
+                    <td class="reporthead1">RESULT</td>
+                    <td class="reporthead1">Normal Range</td></tr>
+                    <tr>
+                        <td>
+                         <input class="choles" type="text" value="S.Cholestrol" >  
+                        </td>
+                        <td>
+                            <input class="choles" type="text"  size="7">
+                        </td>
+                        <td>
+                            <input  class="choles" type="text" value="150-200 mg" >  
+                        </td>
+                    </tr>
+                    <tr> 
+                        <td class="reporthead1"></td>
+                        <td class="reporthead1"></td>
+                        <td class="reporthead1"></td></tr>
+                        <tr>
+                            <td>
+                             <input class="uric" type="text" value="Uric acid" >  
+                            </td>
+                            <td>
+                                <input class="uric" type="text"  size="7">
+                            </td>
+                            <td>
+                                <input  class="uric" type="text" value="3.4-7.0 M" >  
+                            </td>
+                        </tr>
+
+            </table>
+
+
+       
+    
+</h5> </div>
+
+<div onclick="window.print()" class="footer">
+<p>
+    This is computer generated report, does not require any signature                                                                                                                                                  
+    </p></div>
+    <script src="app.js"></script>
+</body>
+</html>
